@@ -1,0 +1,32 @@
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+.before::before {
+  display: block;
+  content: '';
+}
+.before::after {
+  display: block;
+  content: '';
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+button {
+  all: unset;
+  cursor: pointer;
+}
